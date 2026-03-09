@@ -1,9 +1,9 @@
-# Addon Repository
+# Addon/App Repository
 This is an addon repository for the HassOS Pi 5 Fan Enabler. <br>
 
 This addon requires a reboot and may be uninstalled after the first successful run.  Please observe logs to determine if the run was successful. 
 
-## [HassOS Pi 5 Fan Enabler](https://github.com/sOckhamSter/Pi5FanEnabler/tree/main/Pi5FanEnabler)
+## HassOS Pi 5 Fan Enabler
 Enables the Raspberry Pi 5's built-in fan when running Home Assistant OS.<br>
 The configuration creates four fan speed thresholds:<br>
 35°C: 30% speed<br>
@@ -12,7 +12,8 @@ The configuration creates four fan speed thresholds:<br>
 65°C: 98% speed<br>
 
 # Installation
-Within Home Assistant, click Supervisor-> Add-on Store -> … button (in top left)-> Repositories. Add this repository. 
+Within Home Assistant, click Settings -> Apps -> Install App button bottom-right -> Click the three dots in the top right -> choose 'Repositories'.<br>
+Paste in the URL of this repository: https://github.com/sOckhamSter/Pi5FanEnabler
 
 
 # Operation
