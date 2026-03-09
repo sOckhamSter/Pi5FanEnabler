@@ -26,7 +26,7 @@ command_line:
       name: "Pi 5 Fan Speed (RPM)"
       icon: "mdi:fan"
       unique_id: "pi5fan_rpm"
-      command: '/sys/devices/platform/cooling_fan/hwmon/hwmon1/fan1_input'
+      command: 'cat /sys/devices/platform/cooling_fan/hwmon/hwmon1/fan1_input'
       unit_of_measurement: "RPM"
       scan_interval: 15
       value_template: "{{ value | int }}"
@@ -35,7 +35,7 @@ command_line:
       name: "Pi 5 Fan Speed (%)"
       icon: "mdi:fan"
       unique_id: "pi5fan_percentage"
-      command: '/sys/devices/platform/cooling_fan/hwmon/hwmon1/pwm1'
+      command: 'cat /sys/devices/platform/cooling_fan/hwmon/hwmon1/pwm1'
       unit_of_measurement: "%"
       scan_interval: 15
       value_template: "{{((value | int) / 255 * 100) | round(0, 'common')}}"
