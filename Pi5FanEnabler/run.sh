@@ -65,6 +65,27 @@ until false; do
   insertFanConfig mmcblk0p1
   insertFanConfig nvme0n1p1
 
+  # Find the fan device paths for use in sensors in HA:
+  base="/sys/devices/platform/cooling_fan/hwmon"
+  fan_path=""
+  pwm_path=""
+
+  for d in "$base"/hwmon*; do
+      if [ -e "$d/fan1_input" ]; then
+          fan_path="$d/fan1_input"
+          pwm_path="$d/pwm1"
+          break
+      fi
+  done
+
+  if [ -n "$fan_path" ]; then
+      echo "Use the following paths to create sensors in Home Assistant in accordance with the documentation:"
+      echo "$fan_path"
+      echo "$pwm_path"
+  else
+      echo "no fan device found"
+  fi
+  echo ""
   echo "Fan configuration complete. Perform a hard power-off reboot to activate."
   sleep 99999
 done
