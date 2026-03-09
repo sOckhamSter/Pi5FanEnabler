@@ -1,6 +1,6 @@
 # HassOS Pi 5 Fan Enabler - Home Assistant Add-on / App
 Enables the Raspberry Pi 5's built-in fan when running Home Assistant OS.<br>
-The Raspberry Pi 5's built-in fan header is controlled by the firmware, it cannot (currently) be controlled by Home Assistant.<br>
+The Raspberry Pi 5's built-in fan header is controlled by firmware, it cannot (currently) be controlled by Home Assistant.<br>
 This add-on modifies Home Assistant's boot configuration to force the fan to run. Please read the installation notes very carefully, it requires elevated permissions to run.<br>
 The configuration creates four fan speed thresholds:<br>
 35°C: 30% speed<br>
