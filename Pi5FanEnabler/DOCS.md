@@ -1,4 +1,4 @@
-# HassOS Pi 5 Fan Enabler
+# Home Assistant OS Pi 5 Fan Enabler
 Enables the fan on the Raspberry Pi 5 when running Home Assistant OS.
 The configuration creates four fan speed thresholds:<br>
 35°C: 30% speed<br>
