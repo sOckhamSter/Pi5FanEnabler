@@ -12,3 +12,7 @@ Support is provided on the project's Github page
 
 # Operation
 Disable Protection Mode First! Then hit the start button and observe the logs. You may uninstall the Add-On when complete. 
+
+# Credits
+Adapted from the work by adamoutler:<br>
+https://github.com/adamoutler/HassOSConfigurator
