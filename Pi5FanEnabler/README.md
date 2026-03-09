@@ -11,4 +11,4 @@ The configuration creates four fan speed thresholds:<br>
 Support is provided on the project's Github page
 
 # Operation
-Hit the start button and observe the logs.  You may uninstall the Add-On when complete. 
+Disable Protection Mode First! Then hit the start button and observe the logs. You may uninstall the Add-On when complete. 
