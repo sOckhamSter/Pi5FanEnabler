@@ -17,5 +17,21 @@ stage: "experimental"
 full_access: true
 url: "https://www.speaktothegeek.co.uk"
 boot: "manual"
-options: {}
-schema: {}
+options:
+  fan_temp0: 35
+  fan_temp0_speed: 75
+  fan_temp1: 50
+  fan_temp1_speed: 125
+  fan_temp2: 60
+  fan_temp3_speed: 175
+  fan_temp4: 65
+  fan_temp4_speed: 250
+schema:
+  fan_temp0: int
+  fan_temp0_speed: int
+  fan_temp1: int
+  fan_temp1_speed: int
+  fan_temp2: int
+  fan_temp3_speed: int
+  fan_temp4: int
+  fan_temp4_speed: int
