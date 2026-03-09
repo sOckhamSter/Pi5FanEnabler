@@ -1,8 +1,18 @@
-Support is provided on the add-on's Github page.
+# HassOS Pi 5 Fan Enabler
+Enables the fan on the Raspberry Pi 5 when running Home Assistant OS.
+The configuration creates four fan speed thresholds:<br>
+35°C: 30% speed<br>
+50°C: 49% speed<br>
+60°C: 69% speed<br>
+65°C: 98% speed<br>
 
-Just hit the start button and observe the logs. Perform 2- pull-the-plug restart after starting to ensure it takes effect.  The first restart will place files.  The second will activate the fan.  You will see a message in the logs that the configuration was successful after the 2nd restart. You may uninstall the Add-On when complete. 
-The configuration creates four fan speed thresholds:
-35°C: 30% speed
-50°C: 49% speed
-60°C: 69% speed
-65°C: 98% speed
+
+# Support
+Support is provided on the project's Github page
+
+# Operation
+Disable Protection Mode First! Then hit the start button and observe the logs. You may uninstall the Add-On when complete. 
+
+# Credits
+Adapted from the work by adamoutler:<br>
+https://github.com/adamoutler/HassOSConfigurator
