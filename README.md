@@ -20,3 +20,7 @@ Paste in the URL of this repository: https://github.com/sOckhamSter/Pi5FanEnable
 
 **Important Note** when requested to reboot, choose Supervisor->Reboot Host or pull the power plug from your machine and restart it. 
 Hit the start button and observe the logs.  You may uninstall the Add-On when complete. 
+
+# Credits
+Adapted from the work by adamoutler:<br>
+https://github.com/adamoutler/HassOSConfigurator
