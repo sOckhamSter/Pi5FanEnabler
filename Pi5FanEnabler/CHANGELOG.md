@@ -1,3 +1,3 @@
 | Version | Change |
 |---|---|
-| 0.8 | initial release |
+| 0.8 | Initial release |
