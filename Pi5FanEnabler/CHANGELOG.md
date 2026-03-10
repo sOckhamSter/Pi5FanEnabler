@@ -1,3 +1,3 @@
-| Version | Change |
-|---|---|
-| 0.8 | Initial release |
+| Version | Date | Change |
+|---|---|---|
+| 0.8 | 2026-03-10 | Initial release |
