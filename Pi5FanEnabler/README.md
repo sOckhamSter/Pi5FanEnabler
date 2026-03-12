@@ -12,6 +12,8 @@ Support is provided on the project's Github page
 
 # Operation
 Disable Protection Mode First! Then hit the start button and observe the logs. You may uninstall the Add-On when complete. 
+**Important Note** when requested to reboot, pull the power plug from your machine and restart it, or do a full host reboot if you know how to do that. Make sure you do this **twice** - you must do two reboots!
+Hit the start button and observe the logs. You may uninstall the Add-On when complete. 
 
 # Home Assistant Sensors
 You can create sensors in Home Assistant to monitor the speed of the fan, both in terms of RPM and percentage of maximum speed.<br>
