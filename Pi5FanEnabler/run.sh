@@ -86,6 +86,6 @@ until false; do
       echo "no fan device found"
   fi
   echo ""
-  echo "Fan configuration complete. Perform a hard power-off reboot to activate."
+  echo "Fan configuration complete. Perform a hard power-off reboot TWICE to activate."
   sleep 99999
 done
