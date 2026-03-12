@@ -18,7 +18,7 @@ Install the "Pi 5 Fan Enabler" app/add-on and Disable Protection Mode First! The
 
 # Operation
 
-**Important Note** when requested to reboot, pull the power plug from your machine and restart it, or do a full host reboot if you know how to do that.
+**Important Note** when requested to reboot, pull the power plug from your machine and restart it, or do a full host reboot if you know how to do that. Make sure you do this **twice** - you must do two reboots!
 Hit the start button and observe the logs. You may uninstall the Add-On when complete. 
 
 # Home Assistant Sensors
