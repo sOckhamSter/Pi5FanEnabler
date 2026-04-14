@@ -1,5 +1,5 @@
 name: "Pi 5 Fan Enabler"
-version: "0.81"
+version: "0.82"
 slug: "pi5enableraddon"
 description: "This enables the fan on the Raspberry Pi 5 when running Home Assistant OS. You can uninstall this when it has run once. Check logs for information."
 arch:
