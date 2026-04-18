@@ -11,7 +11,7 @@ ingress: true
 app_armor: false
 privileged:
   - SYS_ADMIN
-stage: "experimental"
+stage: "stable"
 full_access: true
 url: "https://www.speaktothegeek.co.uk"
 boot: "manual"
